@@ -15,4 +15,10 @@ public class Author {
     public String getAuthorSecondName() {
         return authorSecondName;
     }
+
+
+    @Override
+    public String toString() {
+        return authorName + " " + authorSecondName;
+    }
 }
